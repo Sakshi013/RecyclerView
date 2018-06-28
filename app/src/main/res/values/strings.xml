@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RecyclerView</string>
+    <string name="image">image</string>
+    <string name="hii">hii</string>
+    <string name="hlo">hlo</string>
+    <string name="byee">byee</string>
 </resources>

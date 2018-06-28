@@ -2,16 +2,20 @@ package com.example.sakshi.recyclerview;
 
 public class Movie {
     private String title,genre,year;
+    private  int image;
 
     public Movie(String title, String genre, String year) {
         this.title = title;
         this.genre = genre;
         this.year = year;
+        this.image =image;
     }
+
 
     public String getTitle() {
         return title;
     }
+
 
     public void setTitle(String title) {
         this.title = title;
@@ -32,4 +36,8 @@ public class Movie {
     public void setYear(String year) {
         this.year = year;
     }
+
+    public int getimage() { return  image;}
+
+    public  void setImage(int image) { this.image =image;}
 }

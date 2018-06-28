@@ -34,24 +34,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void prepareMovieData() {
-        Movie movie = new Movie("abc", "action", "2010");
+        Movie movie = new Movie("Titanic", "romance--disaster", "1997");
+        movie.setImage(R.drawable.titanic);
         movieList.add(movie);
 
-        movie = new Movie("xyz", "action", "2011");
+        movie = new Movie("superman", "action", "2018");
+        movie.setImage(R.drawable.superman);
+
         movieList.add(movie);
-        movie = new Movie("cds", "classical", "2012");
+        movie = new Movie("baaghi", "Romantic", "2016");
+        movie.setImage(R.drawable.baaghi);
+
         movieList.add(movie);
 
-        movie = new Movie("ghs", "action", "2013");
-        movieList.add(movie);
+        movie = new Movie("Ek villen", "action", "2015");
+        movie.setImage(R.drawable.ekvillian);
 
-        movie = new Movie("jhg", "action", "2014");
-        movieList.add(movie);
-
-        movie = new Movie("hdg", "action", "2015");
-        movieList.add(movie);
-
-        movie = new Movie("hgf", "action", "2016");
         movieList.add(movie);
     }
 }
